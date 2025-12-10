@@ -10,14 +10,14 @@ import hmmlearn.hmm as hmm
 import ruptures as rpt
 from ruptures.exceptions import BadSegmentationParameters
 
-from doCNA import Testing
-from doCNA import Chromosome
-from doCNA import Consts
-from doCNA import Report
-from doCNA import Scoring
-from doCNA import Consts
-from doCNA import Models
-from doCNA.Models import model_presets
+from S2K import Testing
+from S2K import Chromosome
+from S2K import Consts
+from S2K import Report
+from S2K import Scoring
+from S2K import Consts
+from S2K import Models
+from S2K.Models import model_presets
 
 class Genome:
     """Class to run genome wide tests of HE and create chromosomes."""
