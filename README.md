@@ -10,9 +10,13 @@ Download the package, then follow the instructions below.
 
 ```
 # setup the virtual environment
-conda create -n s2k python=3.11 pandas=1.5.2 shiny==0.8.0
+conda config --add channels conda-forge 
+conda create -n s2k python=3.11 pandas=1.5.2
+pip install shiny==0.8.0
 # activate the virtual envrionment
 conda activate s2k
+# download repo
+git clone https://github.com/pulimeng/Seq2Karyotype.git
 # install the package
 cd /path/to/download/folder
 pip install Seq2Karyotype
